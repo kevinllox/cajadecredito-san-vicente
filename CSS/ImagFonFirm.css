@@ -1,0 +1,69 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 02-11-2024, 04:12:27 PM
+    Author     : MONTANO
+*/
+
+body {
+  text-align: justify;/* Centra horizontalmente el contenido dentro del body */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+h2{
+    text-align: center;/* Centra horizontalmente el contenido dentro del body */
+}
+.finiquito {
+  font-family: Arial, sans-serif; /* Establece la fuente del documento */
+  font-size: 16px;
+  line-height: 1.5; /* Establece el interlineado en 1.5 */
+  text-align: justify; /* Justifica el texto */
+  width: 90%; /* Ajusta el ancho del documento */
+  margin: 0 auto; /* Centra horizontalmente el elemento */
+  padding: 10px; /* Agrega un poco de espacio alrededor del contenido */
+}
+.alertdupli {
+  font-family: Arial, sans-serif; /* Establece la fuente del documento */
+  font-size: 40px;
+  line-height: 1.5; /* Establece el interlineado en 1.5 */
+  text-align: center; /* Justifica el texto */
+  width: 90%; /* Ajusta el ancho del documento */
+  margin: 0 auto; /* Centra horizontalmente el elemento */
+  padding: 10px; /* Agrega un poco de espacio alrededor del contenido */
+}
+finiquito.p {
+  margin: 0; /* Elimina el margen por defecto de los párrafos */
+}
+.firma {
+  position: relative;
+  width: 280px; /* Ancho de la imagen */
+  height: 257px; /* Alto de la imagen */
+  margin: auto; /* Centra horizontalmente */
+}
+
+.imagen-firma {
+  width: 100%;
+  height: 100%;
+  background-image: url('../Imagenes/FirmaSello.png'); /* Agrega la imagen de fondo */
+  background-size: cover;
+}
+
+.texto {
+  position: absolute;
+  top: 95%; /* Mueve el texto hacia arriba */
+  left:-60%;
+  transform: translate(75%, -70%);
+  text-align: justify;
+  color: #000000;
+  z-index: 1; /* Asegura que el texto esté encima de la imagen */
+}
+
+
+.texto p {
+  margin: 5px 0;
+}
+

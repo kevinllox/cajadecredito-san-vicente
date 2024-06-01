@@ -1,0 +1,47 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 02-18-2024, 05:42:48 PM
+    Author     : MONTANO
+*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);
+
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+table {
+  background: #ffffff; /* Cambio a un fondo blanco */
+  border-radius: 0.25em;
+  border-collapse: collapse;
+  width: 120%; /* Ajustamos el ancho de la tabla */
+  max-width: 1200px; /* Limitamos el ancho máximo de la tabla */
+  margin: 1em auto; /* Centramos la tabla horizontalmente */
+}
+th {
+  border-bottom: 1px solid #dcdcdc; /* Cambio a un color de borde más suave */
+  color: #333333; /* Cambio a un color de texto más oscuro */
+  font-size: 0.85em;
+  font-weight: 600;
+  padding: 0.5em 1em;
+  text-align: left;
+}
+td {
+  color: #555555; /* Cambio a un color de texto más oscuro */
+  font-weight: 400;
+  padding: 0.65em 1em;
+}
+.disabled td {
+  color: #888888; /* Cambio a un color de texto más claro */
+}
+tbody tr {
+  transition: background 0.25s ease;
+}
+tbody tr:hover {
+    background: #ccffcc; /* Cambio a un color de fondo más suave al pasar el mouse */
+}

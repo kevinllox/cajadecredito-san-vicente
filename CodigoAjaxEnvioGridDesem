@@ -1,0 +1,27 @@
+$(document).ready(function(){
+    $('.enviarID').click(function(){
+        var idFiniquito = $(this).data('id');
+        
+        // Pide al usuario que ingrese la fecha
+        var fecha = prompt("Por favor, ingresa la fecha (YYYY-MM-DD):");
+        
+        if (fecha != null) {
+            // Envía los datos mediante AJAX
+            $.ajax({
+                url: 'FiniquitoDesemGuardado.php',
+                method: 'POST',
+                data: { id: idFiniquito, fecha: fecha },
+                success: function(response) {
+                    // Maneja la respuesta del servidor
+                    console.log(response);
+                    // Puedes hacer cualquier otra acción que necesites aquí, como actualizar la interfaz de usuario.
+                },
+                error: function(xhr, status, error) {
+                    // Maneja los errores si hay alguno
+                    console.error(error);
+                }
+            });
+        }
+    });
+});
+

@@ -1,0 +1,28 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 03-10-2024, 05:20:00 PM
+    Author     : MONTANO
+*/
+
+.alert {
+    width: 70%;
+    margin: 0 auto;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+}
+
+.alert-warning {
+    color: #856404;
+    background-color: #fff3cd;
+}

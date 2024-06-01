@@ -1,0 +1,43 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 02-11-2024, 04:20:07 PM
+    Author     : MONTANO
+*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.firma {
+  position: relative;
+  width: 213px; /* Ancho de la imagen */
+  height: 257px; /* Alto de la imagen */
+  margin: auto; /* Centra horizontalmente */
+}
+
+.imagen-firma {
+  width: 100%;
+  height: 100%;
+  background-image: url(''); /* Agrega la imagen de fondo */
+  background-size: cover;
+}
+
+.texto {
+  position: absolute;
+  top: 95%; /* Mueve el texto hacia arriba */
+  left:-100%;
+  transform: translate(75%, -70%);
+  text-align: justify;
+  color: #000000;
+  z-index: 1; /* Asegura que el texto esté encima de la imagen */
+}
+
+
+.texto p {
+  margin: 5px 0;
+}
